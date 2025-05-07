@@ -1,0 +1,2 @@
+comecei a importacao do mysql 8 minutos antes da de postgress e ambos chedgaram a 150k ds daados juntos   e oposggresultrapassou
+terminou postgress todos mas aida tava fazendi mysql 190000

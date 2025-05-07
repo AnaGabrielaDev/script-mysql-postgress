@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres-benchmark
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: benchmark
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  mysql:
+    image: mysql
+    container_name: mysql-benchmark
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: benchmark
+    command: --local-infile=1
+    volumes:
+      - ./data:/docker-entrypoint-initdb.d
