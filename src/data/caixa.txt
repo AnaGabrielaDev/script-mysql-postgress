@@ -1,0 +1,4 @@
+cod_caixa;nom_caixa;cod_loja;flg_ferias
+1;Sandra;1;N
+3;Regina;3;N
+2;Maria;2;N

@@ -1,0 +1,4 @@
+cod_loja;nom_loja;cod_endereco;flg_matriz
+1;;1;S
+2;;1;N
+3;;1;N

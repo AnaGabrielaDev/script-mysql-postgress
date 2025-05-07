@@ -1,0 +1,2 @@
+cod_endereco;nom_logradouro;num_logradouro;cod_cep;cod_ibge;flg_exterior;tip_logradouro
+1;;;60000000;1;n;

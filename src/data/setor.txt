@@ -1,0 +1,6 @@
+cod_setor;nom_setor
+1;
+2;
+3;
+4;
+5;

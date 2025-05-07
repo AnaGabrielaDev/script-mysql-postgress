@@ -1,0 +1,7 @@
+cod_cliente;nom_cliente;flg_fidelizado;cod_endereco
+3;;S;1
+4;;S;1
+6;;S;1
+1;;S;1
+2;;S;1
+5;;S;1

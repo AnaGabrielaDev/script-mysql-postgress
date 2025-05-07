@@ -1,0 +1,4 @@
+cod_fornecedor;nom_fornecedor;flg_fatura;num_dias_fatura
+1;;S;30
+2;;S;30
+3;;S;30

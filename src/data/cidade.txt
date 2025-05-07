@@ -1,0 +1,2 @@
+cod_ibge;nom_cidade;nom_estado;nom_regiao;nom_pais
+1;fortaleza;;;
