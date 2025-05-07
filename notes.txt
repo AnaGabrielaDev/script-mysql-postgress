@@ -1,2 +1,6 @@
-comecei a importacao do mysql 8 minutos antes da de postgress e ambos chedgaram a 150k ds daados juntos   e oposggresultrapassou
-terminou postgress todos mas aida tava fazendi mysql 190000
+Comecei a importação no MySQL 8 minutos antes da importação no PostgreSQL.
+Ambos chegaram em 150 mil registros praticamente juntos, mas o PostgreSQL acabou ultrapassando o MySQL.
+
+O PostgreSQL terminou de importar todos os dados, enquanto o MySQL ainda estava em 190 mil registros nesse momento.
+
+Ou seja, mesmo começando depois, o PostgreSQL foi mais rápido na importação.

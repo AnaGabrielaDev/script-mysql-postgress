@@ -7,7 +7,7 @@
     "docker:reset": "docker compose down -v && docker compose up -d",
     "import:postgres": "ts-node src/import/postgres.ts",
     "import:mysql": "ts-node src/import/mysql.ts",
-    "benchmark": "ts-node src/benchmark.ts",
+    "bench": "ts-node src/benchmark.ts",
     "full:postgres": "npm run docker:reset && sleep 5 && npm run import:postgres",
     "full:mysql": "npm run docker:reset && sleep 5 && npm run import:mysql"
   },

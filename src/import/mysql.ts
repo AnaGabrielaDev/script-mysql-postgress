@@ -18,12 +18,12 @@ async function run() {
     const script = await fs.readFile(path.join(sqlDir, file), 'utf-8');
     try {
       await conn.query(script);
-      console.log(`✅ Executado: ${file}`);
+      console.log(`Executado: ${file}`);
     } catch (err: any) {
       if (err.code === 'ER_TABLE_EXISTS_ERROR') {
-        console.warn(`⚠️ Tabela já existe, ignorando: ${file}`);
+        console.warn(`Tabela já existe, ignorando: ${file}`);
       } else {
-        console.error(`❌ Erro ao executar ${file}:`, err.message);
+        console.error(`Erro ao executar ${file}:`, err.message);
         throw err;
       }
     }
@@ -51,18 +51,18 @@ async function run() {
       try {
         await conn.query(`INSERT INTO \`${tableName}\` VALUES (${placeholders})`, values);
       } catch (err) {
-        console.error(`❌ Erro ao inserir na tabela ${tableName} com:`, values);
+        console.error(`Erro ao inserir na tabela ${tableName} com:`, values);
         console.error(err);
         throw err;
       }
     }
 
-    console.log(`📥 Importado para ${tableName}`);
+    console.log(`Importado para ${tableName}`);
   }
 
   conn.release();
   await pool.end();
-  console.log('🚀 MySQL import concluído.');
+  console.log('MySQL import concluído.');
 }
 
 run();
